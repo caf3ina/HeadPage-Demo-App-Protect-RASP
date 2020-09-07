@@ -2,6 +2,10 @@
 
 A Simple and porpousely vulnerable django web-application for testing and learning
 
+Create a account in Cloud One https://cloudone.trendmicro.com/
+We will focus ins Application Security (RASP) to protect our application
+More information here: https://cloudone.trendmicro.com/docs/application-security/
+
 ![index](docs/index.png)
 ![User profile](docs/profile.png)
 
