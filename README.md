@@ -13,6 +13,10 @@ A Simple and porpousely vulnerable django web-application for testing and learni
 ## Running 
 The recommended way is using docker using the following commands to build and run the container
 
+`yum install git -y`
+
+`git clone clone https://github.com/caf3ina/HeadPage.git`
+
 `docker build --tag=headpage:latest .`
 
 `docker run -d --rm -p 8000:8000 --name headpage headpage:latest`
