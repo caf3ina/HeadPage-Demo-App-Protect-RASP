@@ -27,7 +27,6 @@ The recommended way is using docker using the following commands to build and ru
 
 Otherwise, install the dependencies on `requirements.txt` and run the default django webserver and you'll be good to go.
 
-* Open the url http://ip-address:8000/social/
 
 ## Allowing connections other than localhost
 
@@ -41,6 +40,7 @@ Change the following line on `src/headpage/settings.py` to serve HeadPage on all
 
 ## The site is ugly as sin!
 **Yes** - Also, I'm not a web developer
+* Open the url http://ip-address:8000/social/
 
 ## Main Vulnerabilities
 
