@@ -80,3 +80,4 @@ Change the following line on `src/headpage/settings.py` to serve HeadPage on all
 
 ### Console Events
 
+![Block](https://user-images.githubusercontent.com/46326549/92649532-90319580-f2c1-11ea-9081-27214e5afdeb.jpg)
