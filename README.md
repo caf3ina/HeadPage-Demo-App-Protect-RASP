@@ -80,4 +80,7 @@ Change the following line on `src/headpage/settings.py` to serve HeadPage on all
 
 ### Console Events
 
+* Malicious Payload
+
 ![Block](https://user-images.githubusercontent.com/46326549/92649532-90319580-f2c1-11ea-9081-27214e5afdeb.jpg)
+![app sec](https://user-images.githubusercontent.com/46326549/92649758-e3a3e380-f2c1-11ea-8e37-d78dcc0c7c10.jpg)
