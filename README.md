@@ -74,3 +74,6 @@ Change the following line on `src/headpage/settings.py` to serve HeadPage on all
 * Some static files are returned after GET requests `127.0.0.1:8000/social/static/?file=privacy.txt` The `file` in the GET is not properly validated/sanitized
 
 ![/etc/passwd leak](docs/path_traversal.png)
+
+### Console Events
+
