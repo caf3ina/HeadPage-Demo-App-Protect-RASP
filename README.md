@@ -27,6 +27,9 @@ The recommended way is using docker using the following commands to build and ru
 
 Otherwise, install the dependencies on `requirements.txt` and run the default django webserver and you'll be good to go.
 
+`create a file with name trend_app_protect.ini`
+
+* https://cloudone.trendmicro.com/docs/application-security/python/#install-the-agent
 
 ## Allowing connections other than localhost
 
