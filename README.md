@@ -19,7 +19,7 @@ The recommended way is using docker using the following commands to build and ru
 
 `yum install git -y`
 
-`git clone clone https://github.com/caf3ina/HeadPage.git`
+`git clone https://github.com/caf3ina/HeadPage.git`
 
 `docker build --tag=headpage:latest .`
 
