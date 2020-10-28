@@ -21,6 +21,8 @@ The recommended way is using docker using the following commands to build and ru
 
 `git clone https://github.com/caf3ina/HeadPage.git`
 
+`cd /HeadPage`
+
 `docker build --tag=headpage:latest .`
 
 `docker run -d --rm -p 8000:8000 --name headpage headpage:latest`
@@ -33,10 +35,11 @@ Otherwise, install the dependencies on `requirements.txt` and run the default dj
 
 ## Allowing connections other than localhost
 
-Change the following line on `src/headpage/settings.py` to serve HeadPage on all interfaces. This can be dangerous, if possible run inside a VM on Host-Only interface.
+Edit the following line on `src/headpage/settings.py` to serve HeadPage on all interfaces. This can be dangerous, if possible run inside a VM on Host-Only interface.
 
 `ALLOWED_HOSTS = ['*']`
 
+Now, you must rerun the HeadPage.
 
 ## Why?
 **Yes**
