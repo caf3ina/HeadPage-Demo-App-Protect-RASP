@@ -21,7 +21,7 @@ The recommended way is using docker using the following commands to build and ru
 
 `git clone https://github.com/caf3ina/HeadPage.git`
 
-`cd /HeadPage`
+`cd HeadPage/`
 
 `docker build --tag=headpage:latest .`
 
