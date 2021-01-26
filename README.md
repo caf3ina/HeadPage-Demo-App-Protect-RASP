@@ -27,8 +27,8 @@ The recommended way is using docker using the following commands to build and ru
 
 Create a file with name `trend_app_protect.ini` and put the information bellow.
 
-`<p>[trend_app_protect]</p>`
-`<p>key = my-key</p>`
+`trend_app_protect]`
+`key = my-key`
 <p>secret = my-secret</p>
 
 Take de key and secret from Cloud One Application Security
