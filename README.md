@@ -23,26 +23,18 @@ The recommended way is using docker using the following commands to build and ru
 
 `cd HeadPage/`
 
-`docker build --tag=headpage:latest .`
-
-`docker run -d --rm -p 8000:8000 --name headpage headpage:latest`
-
-Otherwise, install the dependencies on `requirements.txt` and run the default django webserver and you'll be good to go.
-
-`create a file with name trend_app_protect.ini`
-
-* https://cloudone.trendmicro.com/docs/application-security/python/#install-the-agent
-
-## Allowing connections other than localhost
-
 Edit the following line on `src/headpage/settings.py` to serve HeadPage on all interfaces. This can be dangerous, if possible run inside a VM on Host-Only interface.
 
 `ALLOWED_HOSTS = ['*']`
 
-Now, you must rerun the HeadPage.
+`create a file with name trend_app_protect.ini`
+The ideia here is install the App Protection agent
 
-## Why?
-**Yes**
+* https://cloudone.trendmicro.com/docs/application-security/python/#install-the-agent
+
+`docker build --tag=headpage:latest .`
+
+`docker run -d --rm -p 8000:8000 --name headpage headpage:latest`
 
 ## The site is ugly as sin!
 **Yes** - Also, I'm not a web developer
@@ -58,9 +50,6 @@ Now, you must rerun the HeadPage.
 ### XSS
 * The user's first/last name or username are not sanitized and are displayed on their profile.
     * E.g. username: `<script>alert("!!")</script>`
-
-### CSRF
-* To be Implemented (?)
 
 ### Open Redirect
 * When clicking the link to the login/register page from a previous page, the previous Page URL is sent as a Parameter for a redirection back to the previous page after loging in/registering. The redirection URL is not validated.
