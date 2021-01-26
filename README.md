@@ -25,11 +25,11 @@ The recommended way is using docker using the following commands to build and ru
 
 `ALLOWED_HOSTS = ['*']`
 
-`create a file with name trend_app_protect.ini` and put the information bellow.
+Create a file with name `trend_app_protect.ini` and put the information bellow.
 
-<p>[trend_app_protect]</p>
+`<p>[trend_app_protect]</p>
 <p>key = my-key</p>
-<p>secret = my-secret</p>
+<p>secret = my-secret</p>`
 
 Take de key and secret from Cloud One Application Security
 https://cloudone.trendmicro.com/docs/application-security/python/#install-the-agent
