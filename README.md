@@ -15,11 +15,11 @@ Trend Micro Cloud One - Application Security provides runtime protection for con
 ## Running 
 The recommended way is using docker using the following commands to build and run the container.
 
-`yum install git -y`
+`$ yum install git -y`
 
-`git clone https://github.com/caf3ina/HeadPage.git`
+`$ git clone https://github.com/caf3ina/HeadPage.git`
 
-`cd HeadPage/`
+`$ cd HeadPage/`
 
 * Edit the following line on `src/headpage/settings.py` to serve HeadPage on all interfaces. This can be dangerous, if possible run inside a VM on Host-Only interface.
 
@@ -28,8 +28,10 @@ The recommended way is using docker using the following commands to build and ru
 Create a file with name `trend_app_protect.ini` and put the information bellow.
 
 `trend_app_protect]`
+
 `key = my-key`
-<p>secret = my-secret</p>
+
+`secret = my-secret`
 
 Take de key and secret from Cloud One Application Security
 https://cloudone.trendmicro.com/docs/application-security/python/#install-the-agent
