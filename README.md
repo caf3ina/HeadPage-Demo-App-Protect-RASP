@@ -1,25 +1,19 @@
-# HeadPage
+# What is the HeadPage?
 
-A Simple and porpousely vulnerable django web-application for testing and learning
+A Simple and porpousely vulnerable django web-application for testing and learning how to protect using the Trend Micro Application Security.
 
-* Create a account in Cloud One https://cloudone.trendmicro.com/
+# What is the Cloud One Application Security?
 
-* We will focus in Application Security (RASP) to protect our application
-
-Trend Micro Cloud One - Application Security provides runtime protection for containerized applications and serverless functions. When Application Security is properly deployed, threats to your web applications will be detected and protected against, minimizing your risk. Determined attackers are continuously running scanners against your site, creating malicious user accounts, fuzzing various elements, triggering exceptions, and attempting to run exploitation tools
+Trend Micro Cloud One - Application Security provides runtime protection for containerized applications and serverless functions. When Application Security is properly deployed, threats to your web applications will be detected and protected against, minimizing your risk. Determined attackers are continuously running scanners against your site, creating malicious user accounts, fuzzing various elements, triggering exceptions, and attempting to run exploitation tools.
 
 * More information here: https://cloudone.trendmicro.com/docs/application-security/
+* Create a account in Cloud One https://cloudone.trendmicro.com/
 
 ![index](docs/index.png)
 ![User profile](docs/profile.png)
 
-## Idea
-
-* Create a social-media-like (HeadPage != Facebook) web application with a relatively small, and vulnerable, code base. 
-* Users create public profiles, upload files for public (such as photos)or private (such as pdfs) use and browse other users' profiles.
-
 ## Running 
-The recommended way is using docker using the following commands to build and run the container
+The recommended way is using docker using the following commands to build and run the container.
 
 `yum install git -y`
 
