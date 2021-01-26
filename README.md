@@ -3,7 +3,11 @@
 A Simple and porpousely vulnerable django web-application for testing and learning
 
 * Create a account in Cloud One https://cloudone.trendmicro.com/
+
 * We will focus in Application Security (RASP) to protect our application
+
+* Trend Micro Cloud One - Application Security provides runtime protection for containerized applications and serverless functions. When Application Security is properly deployed, threats to your web applications will be detected and protected against, minimizing your risk. Determined attackers are continuously running scanners against your site, creating malicious user accounts, fuzzing various elements, triggering exceptions, and attempting to run exploitation tools
+
 * More information here: https://cloudone.trendmicro.com/docs/application-security/
 
 ![index](docs/index.png)
@@ -23,12 +27,12 @@ The recommended way is using docker using the following commands to build and ru
 
 `cd HeadPage/`
 
-Edit the following line on `src/headpage/settings.py` to serve HeadPage on all interfaces. This can be dangerous, if possible run inside a VM on Host-Only interface.
+* Edit the following line on `src/headpage/settings.py` to serve HeadPage on all interfaces. This can be dangerous, if possible run inside a VM on Host-Only interface.
 
 `ALLOWED_HOSTS = ['*']`
 
 `create a file with name trend_app_protect.ini`
-The ideia here is install the App Protection agent
+* The ideia here is install the App Protection agent
 
 * https://cloudone.trendmicro.com/docs/application-security/python/#install-the-agent
 
