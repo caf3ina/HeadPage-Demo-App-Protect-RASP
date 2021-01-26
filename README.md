@@ -6,7 +6,7 @@ A Simple and porpousely vulnerable django web-application for testing and learni
 
 * We will focus in Application Security (RASP) to protect our application
 
-* Trend Micro Cloud One - Application Security provides runtime protection for containerized applications and serverless functions. When Application Security is properly deployed, threats to your web applications will be detected and protected against, minimizing your risk. Determined attackers are continuously running scanners against your site, creating malicious user accounts, fuzzing various elements, triggering exceptions, and attempting to run exploitation tools
+Trend Micro Cloud One - Application Security provides runtime protection for containerized applications and serverless functions. When Application Security is properly deployed, threats to your web applications will be detected and protected against, minimizing your risk. Determined attackers are continuously running scanners against your site, creating malicious user accounts, fuzzing various elements, triggering exceptions, and attempting to run exploitation tools
 
 * More information here: https://cloudone.trendmicro.com/docs/application-security/
 
