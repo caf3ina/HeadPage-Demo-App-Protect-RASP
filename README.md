@@ -33,7 +33,7 @@ Create a file with name `trend_app_protect.ini` and put the information bellow.
 
 `secret = my-secret`
 
-Take de key and secret from Cloud One Application Security
+Get the key and secret from Cloud One Application Security console
 https://cloudone.trendmicro.com/docs/application-security/python/#install-the-agent
 
 `docker build --tag=headpage:latest .`
